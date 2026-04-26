@@ -1,0 +1,87 @@
+@font-face {
+  font-family: theFONT; 
+  src: url(/Inter_18pt-Regular.ttf); /* url of the font */
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+  height: 740px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-family: theFONT;
+  color: white;
+  
+}
+
+
+div {
+    background-color: hsl(0, 0%, 12%);
+    width: 340px;
+    height: 520px;
+    display:flexbox;
+    justify-items: center;
+    border-radius: 12px;
+
+  
+    
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 130px;
+    height: 80px;
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+h2 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: -10px;
+       
+}
+h5 {
+   color: hsl(75, 94%, 57%);
+   font-weight: 600;
+   margin-bottom: 25px;
+   
+}
+
+p {
+    font-size: 14px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11px;
+height: 38px ;
+width:280px ;
+border: none;
+border-radius: 6px ;
+background-color: hsl(0, 0%, 20%);
+color: white;
+font-weight: 700;
+cursor: pointer;
+}
+
+button:active {
+    background-color:hsl(75, 94%, 57%); 
+    color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1440px) {
+
+    body {
+       width: auto;
+    }
+}
+
+
+
